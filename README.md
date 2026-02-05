@@ -40,3 +40,9 @@ In the bottom, you may type in an arbitrary sequence of characters, including
 ANSI escapes. After pressing enter, the sequence (with the newline you entered
 with ENTER being removed), is drawn to the canvas above. The session will stay
 open until you type CTRL+C.
+
+## Images
+
+![Typing a statement into the utility with some colored text already visible](imagaes/typing-next-statement.png)
+
+![The result of the statement typed in the previous image](imagaes/result-of-next-statement.png)
