@@ -53,6 +53,6 @@ hey☺
 
 ## Images
 
-![Typing a statement into the utility with some colored text already visible](imagaes/typing-next-statement.png)
+![Typing a statement into the utility with some colored text already visible](images/typing-next-statement.png)
 
-![The result of the statement typed in the previous image](imagaes/result-of-next-statement.png)
+![The result of the statement typed in the previous image](images/result-of-next-statement.png)
