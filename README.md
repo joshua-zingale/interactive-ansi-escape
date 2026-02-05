@@ -17,32 +17,20 @@ in the root of this repository, do
 cmake . && cmake --build .
 ```
 
-## Running
+## Interactive Usage
 
 After compiling the binary, you may run it with
 
 ```bash
-./ansi-escape $LINE $COLUMN
+./ansi-escape
 ```
-
-on a UNIX-like operating system. `$LINE` and `$COLUMN` are the height and width
-respectively, in characters, of the terminal emulator. If you are on Windows or
-for some other reason do not have those environment variables defined, you may
-instead manually pass in the height and width with
-
-```bash
-./ansi-escape 42 136
-```
-
-## Interactive Usage
-
 
 In the bottom, you may type in an arbitrary sequence of characters, including
-ANSI escapes. After pressing enter, the sequence (with the newline you entered
+ANSI escapes. After pressing ENTER, the sequence (with the newline you entered
 with ENTER being removed), is drawn to the canvas above. The session will stay
 open until you type CTRL+C.
 
-## Pipe usage
+## Pipe Usage
 
 You can also use `ansi-escape` in a pipeline by passing "-" as an argument.
 
